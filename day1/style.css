@@ -1,0 +1,30 @@
+body{
+    background-image: url('https://image.freepik.com/free-vector/abstract-pattern-in-black-color_1051-1061.jpg');
+}
+
+
+.key{
+    color: white;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #E61212;
+    border-radius: 2px;
+    max-height: 20ex;
+    max-width: 15ex;
+    margin-top: 280px;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 1em;
+    justify-content: center;
+}
+
+.key:hover, .playing{
+    transform: scale(1.5);
+    transition: all .10s ease;
+    border: 2px solid yellowgreen;
+}
+
+.key>kbd{
+    display: block
+}
